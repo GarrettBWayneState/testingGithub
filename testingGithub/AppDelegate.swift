@@ -32,9 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /*
          The persistent container for the application. This implementation
          creates and returns a container, having loaded the store for the
-         application to it. This property is optional since there are legitimate
-         error conditions that could cause the creation of the store to fail.
-        */
+         application to it. This property is optional s
         let container = NSPersistentContainer(name: "testingGithub")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
